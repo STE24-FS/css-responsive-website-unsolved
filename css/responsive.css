@@ -11,7 +11,16 @@
 
   /* 👇👇👇 Add the styles that belong to the DESKTOP view only beneath 👇👇👇 */
 }
-
+@media screen and (min-width: 1024px) {
+  .top-navigation a:hover{
+    color: rgb(0, 11, 128);
+  }
+}
 /* 👇👇👇 Add the media rule and the styles that are common within the TABLET and MOBILE views beneath 👇👇👇 */
-
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+}
 /* 👇👇👇 Add the media rule and the styles that belong to the MOBILE view only beneath 👇👇👇 */
+@media screen and (max-width: 767px) {
+  
+}
